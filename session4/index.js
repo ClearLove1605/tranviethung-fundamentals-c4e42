@@ -106,6 +106,9 @@ const hScores = [45, 67, 56, 78, 100, 69]
 // for (let i = 0; i<hScores.length; i++){
 //      console.log(`${i+1}. ${hScores[i]}`)
 // }
+
+
+//PART 6:
 //14.
 for (let i = 0; i < hScores.length; i++){
 for (let j = 0; j < hScores.length; j++ ){

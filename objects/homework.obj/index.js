@@ -74,24 +74,24 @@ quest = {
     correctAnswer : "Sixteen legs",
 }
 ]
-answer = []
+ans = []
 for ( let i=0; i<questArray.length; i++){
     let choses = prompt(`Question ${i+1}: ${questArray[i].quest}\n
 1: ${questArray[i].answer[1]}\n
 2: ${questArray[i].answer[2]}\n
 3: ${questArray[i].answer[3]}\n
 4: ${questArray[i].answer[4]}`);
-if (choses === questArray[i].correctAnswer){
-    answer.push(choses)
+if (choses == questArray[i].correctAnswer){
+    ans.push(choses)
 }
 }
-
+console.log(ans)
 
 //7.
-console.log("Correct:", answer.length)
+console.log("Correct:", ans.length)
 
 //8.
-console.log("Correct:",answer.length/4*100, "%" );
+console.log("Correct:",ans.length/4*100, "%" );
 
 
 
