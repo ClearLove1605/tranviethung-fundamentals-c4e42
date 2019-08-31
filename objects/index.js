@@ -16,7 +16,7 @@
 // // console.log(film.title);
 // for(let key in film){
 // console.log(key, film[key]);
-// }
+}
 
 
 // //Update
@@ -120,17 +120,3 @@
 // console.log(`So tien nha hang phai tra ${haveToPay}`);
 // console.log(bangLuong)
 
-
-
-
-const quest = [
-    question= {"Nhện có mấy chân?"},
-    choses = {
-        1: "1 chân",
-        2: "2 chân",
-        3: "3 chân",
-        4: "4 chân",
-    },
-
-    
-]

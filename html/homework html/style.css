@@ -1,0 +1,85 @@
+/* selector */
+#bai1{
+    color: red;
+}
+#bai2{
+    color: green;
+}
+#bai3{
+    color: blue;
+}
+
+/* TEXT */
+#text{
+    background-color: wheat;
+    /*code vào phần bên dưới*/
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold
+  }
+
+  /* Display */
+  #display{
+    background: red;
+    display: inline;
+  }
+  #span1{
+    background: red;
+  }
+  #span2{
+    background:yellow;
+    width: 500px;
+    display: inline-table;
+  }
+  #s1{
+    background: red;
+    display: block;
+  }
+  #d1{
+    background: blue;
+  }
+
+  /* Box model */
+  #box{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    /*  code vào phần bên dưới  */
+    border: 3px solid blue;
+    border-radius: 30px
+  }
+  #d2{
+    background: wheat;
+    width:400px;
+    border: 2px solid green;
+  /*  Code vào phần bên dưới  */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    /* padding: 45px 40px 45px 40px; */
+  }
+  #a >div {
+    background:wheat;
+    /*  code vào phần bên dưới   */
+     margin-left: 40px;
+     margin-right: 60px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     /* margin: 50px 60px 50px 40px */
+  }
+  
+  
+  
+  
+  
+  #a{
+    /* Không code vào đây */
+    border:1px solid black
+  }
+

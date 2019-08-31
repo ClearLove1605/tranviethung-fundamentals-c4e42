@@ -1,0 +1,25 @@
+/* #header {
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+}
+.blue {
+    color: blue;
+}
+.small {
+    font-size: 15px;
+}
+#container {
+    width: 500;
+    height: 900;
+    background-image: url("E:\wallpaper\b2197469-6bab-https://cdn.shopify.com/s/files/1/2477/0106/products/popcorn-boys-blue3_1200x1200.jpg?v=1535840879-8928-a6fd092d04721540383597284-Harpa-Women-Tops-2001540383597148-1.jpg");
+} */
+div {
+    width: 500px;
+    height: 800px;
+    background-color: cyan;
+}
+#box1 {
+    margin: 50px 30px;
+}
