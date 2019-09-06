@@ -3,11 +3,43 @@
     padding: 0px;
 }
 #movie {
+    width: 1000px;
+    height: 600px;
     padding: 5px 30px 5px 30px;
+    background-color: antiquewhite;
 }
 #movie1 {
+    margin: 0px 0px 20px 0px;
     display: flex;
+    justify-content: flex-start;
+}
+#name {
+    width: 800px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+#about {
+    width: 840px;
+    height: 279px;
 }
 #infor {
+    width: 840;
+    height: 180px;
+    padding: 10px 30px 10px 10px;
     display: flex;
+    justify-content: space-between;
+}
+#review {
+    
+}
+#time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
