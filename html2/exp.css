@@ -1,0 +1,19 @@
+#first {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 1px;
+}
+
+#one {
+    display: flex;
+}
+
+#avatar {
+
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

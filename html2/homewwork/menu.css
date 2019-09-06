@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+menu {
+    width: 1260px;
+    height: 500px;
+    padding: 0px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#menu {
+    width: 1260px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Londrina Sketch', cursive;
+    background-color: #ebb3b4;
+}
+#part {
+    width: 300px;
+    height: 200px;
+}
+#menu1 {
+    width: 1260px;
+    height: 200px;
+    display: flex;
+    font-family: 'Marcellus', serif;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #f8e1ec;
+}
+#morning {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Beth Ellen', cursive;
+
+}
+#foodmenu {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
