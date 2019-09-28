@@ -1,0 +1,69 @@
+.container {
+	position: relative;
+	background: #eee;
+	width: 100vw;
+	height: 100vh;
+}
+
+#box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: #f00;
+}
+
+#control {
+	position: relative;
+	top: 123px;
+	z-index: 999;
+	width: 200px;
+	height: 200px;
+}
+
+#control button {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	font-size: 18px;
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 50%;
+	outline: none;
+	transition: .3s;
+	cursor: pointer;
+}
+
+#control button:hover {
+	color: #f00;
+  border-color: #f00;
+}
+
+#up {
+	top: 0;
+}
+
+#down {
+	bottom: 0;
+}
+
+#up, #down {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#left {
+	left: 0;
+}
+
+#right {
+	right: 0;
+}
+
+#left, #right {
+	top: 50%;
+	transform: translateY(-50%);
+}

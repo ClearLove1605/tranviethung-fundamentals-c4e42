@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/reset_base.css">
+    <link rel="stylesheet" href="test.css">
+    <title>Project C4E 42</title>
+</head>
+<body>
+    <div class="login-box">
+        <div class="login-box-item btn btn-signup">Sign up</div>
+        <div class="login-box-item btn btn-help">?</div>
+        <div class="login-box-item btn btn-login">Login</div>
+    </div>
+    <div class="mute-box" id="mute_all">
+        <img src="./images/mute.png" alt="" id="mute-false">
+        <img src="./images/muted-true.png" alt="" id="mute-true">
+    </div>
+    <div class="container">
+        <!-- header -->
+        <div class="row flex-jc-center" id="title">
+            <div class="col-xl-6">
+                <h1 class="title">Remix Sound</h1>
+            </div>
+        </div>
+        <div class="row flex-jc-center padding-13per" id="slogan">
+            <div class="col-xl-10">
+                <h2 class="slogan">Improve focus and boost your productivity. <br>Mix different sounds and create your perfect environment.</h2>
+            </div>
+        </div>
+        <!-- options -->
+        <div class="row flex-jc-center" id="presets">
+            <div class="col-xl-6">
+                <ul class="presets-list">
+                    <li class="presets-item">
+                        <span class="btn presets-label" id="presets-random">Random</span>
+                    </li>
+                    <li class="presets-item">
+                        <span class="btn presets-label" id="presets-productivity">Productivity</span>
+                    </li>
+                    <li class="presets-item">
+                        <span class="btn presets-label" id="presets-relax">Relax</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- player -->
+        <div class="row" id="player">
+
+        </div>
+        <!-- button create acc -->
+        <div class="row flex-jc-center">
+            <div class="col-xl-6 flex-jc-center">
+                <div class="btn btn-create">
+                    Create Account
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+    </div>
+    <div class="footer-wrapper">
+        <div class="container">
+            <!-- coppy right -->
+            <div class="coppy-right">
+                <a href="#">
+                    <img src="./images/app-store-badge.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/play-store-badge.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/chrome-web-store-badge.png" alt="">
+                </a>
+                <p class="copyright-text">© 2019 Remix Sound - C4E42 Group 3 - All Right Reserved</p>
+            </div>
+            <!-- about -->
+            <div class="row" id="footer-about">
+                <div class="col-xl-4">
+                    <p class="about-content text">Noisli is a fantastic background noise and color generator ideal for working and relaxing. </p>
+                </div>
+                <div class="col-xl-4">
+                    <p class="about-content text">It includes many high-quality sounds to help you focus while working, relieve anxiety or to just relax while reading or before going to sleep.</p>
+                </div>
+                <div class="col-xl-4">
+                    <p class="about-content text">Noisli also provides a color changing background, bringing to you the healthy benefits of the chromotherapy.</p>
+                </div>
+            </div>
+            <!-- feature -->
+            <div class="row" id="footer-feature">
+                <div class="col-xl-12">
+                    <div class="wrapper-img">
+                        <a href="#">
+                            <img src="./images/time-feature.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./images/thenextweb-feature.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./images/fastcompany-feature.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./images/cnet-feature.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./images/lifehacker-feature.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- researches -->
+            <div class="row" id="footer-researches">
+                <div class="col-xl-4">
+                    <h6 class="researches-title">THE WALL STREET JOURNAL</h6>
+                    <p class="text researches-content">"A moderate level of noise the equivalent of the background buzz of conversation prompts more-creative thought"</p>
+                </div>
+                <div class="col-xl-4">
+                    <h6 class="researches-title">LIFEHACKER</h6>
+                    <p class="text researches-content">"It's a strange thing, but sometimes being given a smaller space, more people nearby, and less convenience helps workers get things done at a coffee shop, restaurant, or other spots."</p>
+                </div>
+                <div class="col-xl-4">
+                    <h6 class="researches-title">THE NEW YORK TIMES</h6>
+                    <p class="text researches-content">"Switching the color of your computer’s background screen to blue enhances performance on creative tasks, for example, while making it red helps with detail-oriented tasks."</p>
+                </div>
+            </div>
+            <!--newsletter -->
+            <div class="row" id="footer-newsletter">
+                <div class="col-xl-12">
+                    <h3 class="footer-newsletter-title">SIGN UP TO RECEIVE NOISLI PRODUCTIVITY HACKS</h3>
+                    <form action="#" class="nl-form-wrapper">
+                        <input type="email" name="Email" id="newletter-email" placeholder="Your e-mail address" autocomplete="off" class="nl-form-email">
+                        <input type="submit" value="Sign up" class="btn nl-form-submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2" id="footer-logo-welcome">
+                    <a href="#" class="">Remix</a>
+                </div>
+                <div class="col-xl-10" id="footer-logo-menu">
+                    <ul>
+                        <li><a href="#">Imprint</a></li>
+                        <li><a href="#">apps</a></li>
+                        <li><a href="#">jobs</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">features</a></li>
+                        <li><a href="#">Terms & Privacy</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="test.js"></script>
+</body>
+</html>
+
